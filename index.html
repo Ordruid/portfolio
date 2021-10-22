@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- declares the document as an HTML5 webpage-->
+<!DOCTYPE html>
+<!-- identifies and declares the HTML code in HTML web pages-->
+<html>
+  <!-- contains all the important information web browsers and search engines need regarding a web page-->
+  <head>
+    <!-- the meta tag holds important information related to the data within the web page. The meta tag    is declaring the "charset", or "character set", to tell browsers how to process the characters and code within the file.-->
+    <meta charset="utf-8"/>
+    <!-- this meta tag sets the width of the web page to follow the screen-width of whichever device a user is looking at.-->
+    <meta name="viewport" content="width=device-width"/>
+    <!-- this element defines the title of the webpage. This does not show on your page but rather in the web page tab or the name   of the page when you bookmark it in your browser-->
+    <title>brians-portfolio</title>
+    <!--This element is referencing my CSS page.-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!--the body element contains all the HTML code for the text, images, links, and containers used for the web page structure-->
+  <body>
+    <!-- the header container helps to identify the content of my webpage-->
+    <header>
+      <!-- h tags are use to emphasize text importance, whether title, subtitle, ect. -->
+      <h1>Brian Hobby</h1>
+      <h3> Aspiring web developer </h3>
+    </header>
+    <!-- the main container is the center content or the "meat" of my page-->
+    <main>
+      <!-- creates a container that answers to .picture in my style or CSS file-->
+      <div class="picture">
+        <!-- Displays my image stored within my project-->
+        <img src="images/me.jpg" width="250" alt="my picture."/>
+      </div>
+      <h2>Who I Am</h2>
+      <p> My name is Brian Hobby and I'm currently located in Brooklyn, NY!. </p>
+      <!-- The a element allows me to add a link as well as title said link, whether locally or remotely-->
+      <a href="https://www.google.com/maps/place/Brooklyn,+NY/@40.6453531,-74.0150371,12z/data=!3m1!4b1!4m5!3m4!1s0x89c24416947c2109:0x82765c7404007886!8m2!3d40.6781784!4d-73.9441579">Brooklyn NY!</a>
+      <hr/>
+      <h2>A little bit about me</h2>
+      <p>I'm cultivating skills in order to recognize a career      in web and software development. I've climed the ladder of a landscaping career from the bottom as a general laborer to      ultimately an irrigation companies general manager before deciding to pursue this career. Many times I was faced with      difficult issues to overcome for clients and I've found well written software and systems have made my life much easier.      Which eventually led me to discover a passion for being able to create these solutions myself to help shape industries.      I greatly look forward to working with my peers in order to develope future pillars of software. </p>
+      <h3>A deeper look</h3>
+      <!-- ul is a tag that creates a bulleted list -->
+      <ul>
+        <li> As a former landscaper I have a deep love and appreciation for plants and animals.</li>
+        <li> My friends are my foundation, I love them dearly and would not be where I am today without them.</li>
+        <li> I wish to always pursue knowlege, happiness, and balance wherever life takes me. </li>
+      </ul>
+      <hr/>
+      <h2>Lets get in touch</h2>
+      <ol>
+        <li>
+          <a href="https://www.linkedin.com/in/brian-hobby-1570a5224/">My Linkedin</a>
+        </li>
+        <li>
+          <a href="https://github.com/Ordruid">My Github</a>
+        </li>
+      </ol>
+    </main>
+    <!--The footer container is the bottom part of my page, listing important information, and links as needed-->
+    <footer>
+      <h2> Thanks for reading! </h2>
+    </footer>
+    <!-- This refrences the script.js file. its best to place it at the end in order to optimize loading time.-->
+    <script src="script.js">
+    </script>
+  </body>
+</html>
