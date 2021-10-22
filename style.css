@@ -1,0 +1,40 @@
+/*  font-size,  */
+
+header, main, footer {
+  font-family: serif;
+}
+
+header, footer {
+  text-align: center;
+  background: #703f07;
+  color: white;
+  margin: 0;
+  font-size: 30px;
+}
+
+Main {
+  text-align: left;
+  max-width: 750px;
+  Margin: 0 auto;
+}
+
+body {
+  background: #ccffca;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.picture {
+  height:250px;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
